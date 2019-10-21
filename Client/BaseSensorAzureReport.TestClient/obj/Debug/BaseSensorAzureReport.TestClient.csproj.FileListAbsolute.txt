@@ -1,0 +1,15 @@
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\BaseSensorAzureReport.TestClient.exe.config
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\BaseSensorAzureReport.TestClient.exe
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\BaseSensorAzureReport.TestClient.pdb
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\Ids.Common.dll
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\SharpPcap.dll
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\PacketDotNet.dll
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\Ids.Common.Data.dll
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\Ids.Common.pdb
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\SharpPcap.xml
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\SharpPcap.dll.config
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\PacketDotNet.xml
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\bin\Debug\Ids.Common.Data.pdb
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\obj\Debug\BaseSensorAzureReport.TestClient.csproj.CopyComplete
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\obj\Debug\BaseSensorAzureReport.TestClient.exe
+C:\dev\IDS\idsSource\IDS\Client\BaseSensorAzureReport.TestClient\obj\Debug\BaseSensorAzureReport.TestClient.pdb

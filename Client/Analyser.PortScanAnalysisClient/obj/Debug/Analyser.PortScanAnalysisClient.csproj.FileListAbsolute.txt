@@ -1,0 +1,16 @@
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\Analyser.PortScanAnalysisClient.exe.config
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\Analyser.PortScanAnalysisClient.exe
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\Analyser.PortScanAnalysisClient.pdb
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\Ids.Common.Data.dll
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\Ids.Common.dll
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\PacketDotNet.dll
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\SharpPcap.dll
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\Ids.Common.Data.pdb
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\Ids.Common.pdb
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\PacketDotNet.xml
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\SharpPcap.xml
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\bin\Debug\SharpPcap.dll.config
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\obj\Debug\Analyser.PortScanAnalysisClient.csproj.CopyComplete
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\obj\Debug\Analyser.PortScanAnalysisClient.exe
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\obj\Debug\Analyser.PortScanAnalysisClient.pdb
+C:\dev\IDS\idsSource\IDS\Client\Analyser.PortScanAnalysisClient\obj\Debug\Analyser.PortScanAnalysisClient.csprojAssemblyReference.cache

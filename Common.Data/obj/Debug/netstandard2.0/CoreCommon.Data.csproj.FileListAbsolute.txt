@@ -1,0 +1,16 @@
+C:\dev\CoreIDS\Common.Data\bin\Debug\netstandard2.0\Common.Data.deps.json
+C:\dev\CoreIDS\Common.Data\bin\Debug\netstandard2.0\Common.Data.dll
+C:\dev\CoreIDS\Common.Data\bin\Debug\netstandard2.0\Common.Data.pdb
+C:\dev\CoreIDS\Common.Data\bin\Debug\netstandard2.0\Common.dll
+C:\dev\CoreIDS\Common.Data\bin\Debug\netstandard2.0\SharpPcap.dll
+C:\dev\CoreIDS\Common.Data\bin\Debug\netstandard2.0\PacketDotNet.dll
+C:\dev\CoreIDS\Common.Data\bin\Debug\netstandard2.0\Common.pdb
+C:\dev\CoreIDS\Common.Data\bin\Debug\netstandard2.0\SharpPcap.xml
+C:\dev\CoreIDS\Common.Data\bin\Debug\netstandard2.0\SharpPcap.dll.config
+C:\dev\CoreIDS\Common.Data\bin\Debug\netstandard2.0\PacketDotNet.xml
+C:\dev\CoreIDS\Common.Data\obj\Debug\netstandard2.0\Common.Data.csprojAssemblyReference.cache
+C:\dev\CoreIDS\Common.Data\obj\Debug\netstandard2.0\Common.Data.AssemblyInfoInputs.cache
+C:\dev\CoreIDS\Common.Data\obj\Debug\netstandard2.0\Common.Data.AssemblyInfo.cs
+C:\dev\CoreIDS\Common.Data\obj\Debug\netstandard2.0\Common.Data.csproj.CopyComplete
+C:\dev\CoreIDS\Common.Data\obj\Debug\netstandard2.0\Common.Data.dll
+C:\dev\CoreIDS\Common.Data\obj\Debug\netstandard2.0\Common.Data.pdb

@@ -1,0 +1,16 @@
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\Ids.Client.BaseSensor.TestClient.exe.config
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\Ids.Client.BaseSensor.TestClient.exe
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\Ids.Client.BaseSensor.TestClient.pdb
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\Ids.Common.dll
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\SharpPcap.dll
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\PacketDotNet.dll
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\Ids.Common.Data.dll
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\Ids.Common.pdb
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\SharpPcap.xml
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\SharpPcap.dll.config
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\PacketDotNet.xml
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\bin\Debug\Ids.Common.Data.pdb
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\obj\x86\Debug\BaseSensor.TestClient.csproj.CopyComplete
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\obj\x86\Debug\Ids.Client.BaseSensor.TestClient.exe
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\obj\x86\Debug\Ids.Client.BaseSensor.TestClient.pdb
+C:\dev\IDS\idsSource\IDS\Client\BaseSensor.TestClient\obj\x86\Debug\BaseSensor.TestClient.csprojAssemblyReference.cache
