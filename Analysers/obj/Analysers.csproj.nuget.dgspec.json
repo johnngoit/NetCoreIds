@@ -176,6 +176,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "CoreCompat.System.ComponentModel.DataAnnotations": {
+              "target": "Package",
+              "version": "[4.2.3-r7, )"
+            },
             "Microsoft.CSharp": {
               "target": "Package",
               "version": "[4.6.0, )"

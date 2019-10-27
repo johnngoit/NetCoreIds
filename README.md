@@ -72,3 +72,33 @@ select your test in the exploer right click select dropdown menu debug
 dotnet test -v n
 
 
+--------------------------------------------------------ef code first
+dotnet new classlib --framework netcoreapp3.0 -o Ids.Data
+cd Ids.Data
+dotnet add reference ..\Common\Common.csproj
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add packaga Microsoft.EntityFrameworkCore.Design
+
+neew file DataContext.cs
+
+https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet
+--- add ef tools as global like most developers
+dotnet tool install --global dotnet-ef
+
++ add DBContextFactory.cs
+--- create migration
+dotnet ef migrations add InitialCreate
+
+dotnet ef database update InitialCreate
+dotnet ef database update 20180904195021_InitialCreate
+
+https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/
+
+After create db: follow the steps
+1. update the model and db codes
+2. run: dotnet ef migrations add XYZ  -- to generate the code change to be run for db update dabase up and down
+3. run: dotnet ef database update XYZ    -- to push migration code to db
+
+
+
+

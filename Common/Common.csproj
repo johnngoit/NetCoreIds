@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
@@ -15,10 +14,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="entityframework" Version="6.3.0" />
-    <PackageReference Include="Microsoft.CSharp" Version="4.6.0" />
-    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="entityframework" Version="6.3.0"/>
+    <PackageReference Include="Microsoft.CSharp" Version="4.6.0"/>
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0"/>
+    <PackageReference Include="System.Linq" Version="4.3.0"/>
+    <PackageReference Include="CoreCompat.System.ComponentModel.DataAnnotations" Version="4.2.3-r7"/>
   </ItemGroup>
-
 </Project>
