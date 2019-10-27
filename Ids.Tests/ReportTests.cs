@@ -12,11 +12,11 @@ using NSubstitute;
 using PacketDotNet;
 using Common;
 using Common.Interfaces;
-using Data;
+using Ids.Data;
 using Common.Rules;
 using Common.Sensors;
 
-namespace Tests
+namespace Ids.Tests
 {
 	[TestFixture]
 	public class ReportTests

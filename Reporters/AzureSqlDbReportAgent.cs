@@ -87,14 +87,16 @@ namespace Common.Reporters
             
             if (tcp != null)
             {
-                _sensorEventAgent.LogEvent(_sensorId, ip.DestinationAddress.ToString(), tcp.DestinationPort, ip.SourceAddress.ToString(), tcp.SourcePort,
+                _sensorEventAgent.SensorEventLog(_sensorId, ip.DestinationAddress.ToString(), tcp.DestinationPort, ip.SourceAddress.ToString(), tcp.SourcePort,
                    arrivalTime, payloadAsText);
             }
         }
 
         public void SendHeartBeat(string sensorId)
         {
-            SensorHeartbeatDbAgent.InsertHeartbeatEvent(_connectionString, _sensorId);
+            //SensorHeartbeatDbAgent.InsertHeartbeatEvent(_connectionString, _sensorId);
+            SensorHeartbeatDbAgent.InsertHeartbeatEvent(_sensorId);
+        
         }
 
         /// <summary>

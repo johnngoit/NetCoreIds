@@ -24,12 +24,9 @@ namespace Data
             _connectionString = connectionString;
         }
 
-        public void SensorEventLog(string sensorId, string sourceAddress, int sourcePort, string destinationAddress, int destinationPort, DateTime timeVal, string payload)
+        public int SensorEventLog(string sensorId, string sourceAddress, int sourcePort, string destinationAddress, int destinationPort, DateTime timeVal, string payload)
 		{
-			//using (AlertsEntities entities = new AlertsEntities())
-            using (var entities = new DataContext())
-			{
-				entities.SensorEventLogs.Add(new SensorEventLog()
+            var log = new SensorEventLog()
 				{
 					Created = DateTime.Now,
 					SensorId = sensorId,
@@ -39,40 +36,46 @@ namespace Data
                     DestinationPort = destinationPort,
                     TimeVal = timeVal.ToString(),
                     Payload = payload//,Comment = ""
-				});
+				};
+			//using (AlertsEntities entities = new AlertsEntities())
+            using (var entities = new DataContext())
+			{
+				entities.SensorEventLogs.Add(log);
 				entities.SaveChanges();
+
 			}
+            return log.LogId;
         }
-         public int LogEvent(string sensorId, string sourceAddress, int sourcePort, string destinationAddress, int destinationPort, DateTime timeVal, string payload)
-         {
-             int result = 0;
-            string query = "INSERT INTO dbo.SensorEventLog (SensorId, SourceAddress, SourcePort, DestinationAddress, DestinationPort, TimeVal, Payload, Created) " +
-                   "VALUES (@SensorId, @SourceAddress, @SourcePort, @DestinationAddress, @DestinationPort, @TimeVal, @Payload, @Created) ";
+        //  public int LogEvent(string sensorId, string sourceAddress, int sourcePort, string destinationAddress, int destinationPort, DateTime timeVal, string payload)
+        //  {
+        //      int result = 0;
+        //     string query = "INSERT INTO dbo.SensorEventLog (SensorId, SourceAddress, SourcePort, DestinationAddress, DestinationPort, TimeVal, Payload, Created) " +
+        //            "VALUES (@SensorId, @SourceAddress, @SourcePort, @DestinationAddress, @DestinationPort, @TimeVal, @Payload, @Created) ";
 
-             // create connection and command
-            using (SqlConnection conn = new SqlConnection(_connectionString))
-            {
-                using (SqlCommand cmd = new SqlCommand(query, conn))
-                {
-                    // define parameters and their values
-                    cmd.Parameters.Add("@SensorId", SqlDbType.VarChar, 50).Value = sensorId;
-                    cmd.Parameters.Add("@SourceAddress", SqlDbType.VarChar, 50).Value = sourceAddress;
-                    cmd.Parameters.Add("@SourcePort", SqlDbType.VarChar, 50).Value = sourcePort;
-                    cmd.Parameters.Add("@DestinationAddress", SqlDbType.VarChar, 50).Value = destinationAddress;
-                    cmd.Parameters.Add("@DestinationPort", SqlDbType.Int).Value = destinationPort;
-                    cmd.Parameters.Add("@TimeVal", SqlDbType.VarChar, 50).Value = timeVal;
-                    //cmd.Parameters.Add("@Payload", SqlDbType.Text).Value = payload; SqlDbType.VarChar, 50
-                    cmd.Parameters.Add("@Payload", SqlDbType.VarChar, 255).Value = payload; 
-                    cmd.Parameters.Add("@Created", SqlDbType.DateTime).Value = DateTime.Now;
+        //      // create connection and command
+        //     using (SqlConnection conn = new SqlConnection(_connectionString))
+        //     {
+        //         using (SqlCommand cmd = new SqlCommand(query, conn))
+        //         {
+        //             // define parameters and their values
+        //             cmd.Parameters.Add("@SensorId", SqlDbType.VarChar, 50).Value = sensorId;
+        //             cmd.Parameters.Add("@SourceAddress", SqlDbType.VarChar, 50).Value = sourceAddress;
+        //             cmd.Parameters.Add("@SourcePort", SqlDbType.VarChar, 50).Value = sourcePort;
+        //             cmd.Parameters.Add("@DestinationAddress", SqlDbType.VarChar, 50).Value = destinationAddress;
+        //             cmd.Parameters.Add("@DestinationPort", SqlDbType.Int).Value = destinationPort;
+        //             cmd.Parameters.Add("@TimeVal", SqlDbType.VarChar, 50).Value = timeVal;
+        //             //cmd.Parameters.Add("@Payload", SqlDbType.Text).Value = payload; SqlDbType.VarChar, 50
+        //             cmd.Parameters.Add("@Payload", SqlDbType.VarChar, 255).Value = payload; 
+        //             cmd.Parameters.Add("@Created", SqlDbType.DateTime).Value = DateTime.Now;
 
-                    // open connection, execute INSERT, close connection
-                    conn.Open();
-                    result = cmd.ExecuteNonQuery();
-                    conn.Close();
-                }
-            }
-             return result;
-         }
+        //             // open connection, execute INSERT, close connection
+        //             conn.Open();
+        //             result = cmd.ExecuteNonQuery();
+        //             conn.Close();
+        //         }
+        //     }
+        //      return result;
+        //  }
 
          public int GetMaxVericalEventsWithinAnalysisWindow(int? analysisWindow)
          {

@@ -4,7 +4,7 @@ namespace Common
 {
 	public interface IDataAgent
 	{
-		void SaveAlert(NetworkEventArgs args);
+		void SaveEFAlert(NetworkEventArgs args);
 		//NetworkEventArgs ReadAlert();
 		int CountAlerts();
 	}

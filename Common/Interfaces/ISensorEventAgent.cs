@@ -19,7 +19,7 @@ namespace Common.Interfaces
         /// <param name="timeVal"></param>
         /// <param name="payload"></param>
         /// <returns></returns>
-        int LogEvent(string sensorId, string sourceAddress, int sourcePort, string destinationAddress, int destinationPort, DateTime timeVal, string payload);
+        int SensorEventLog(string sensorId, string sourceAddress, int sourcePort, string destinationAddress, int destinationPort, DateTime timeVal, string payload);
 
         /// <summary>
         /// get data for port scan analysis

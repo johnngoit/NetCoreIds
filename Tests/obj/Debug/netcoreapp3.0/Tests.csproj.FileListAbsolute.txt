@@ -1,3 +1,6 @@
+C:\dev\CoreIDS\Tests\obj\Debug\netcoreapp3.0\Tests.csprojAssemblyReference.cache
+C:\dev\CoreIDS\Tests\obj\Debug\netcoreapp3.0\Tests.AssemblyInfoInputs.cache
+C:\dev\CoreIDS\Tests\obj\Debug\netcoreapp3.0\Tests.AssemblyInfo.cs
 C:\dev\CoreIDS\Tests\bin\Debug\netcoreapp3.0\NUnit3.TestAdapter.dll
 C:\dev\CoreIDS\Tests\bin\Debug\netcoreapp3.0\nunit.engine.netstandard.dll
 C:\dev\CoreIDS\Tests\bin\Debug\netcoreapp3.0\Mono.Cecil.dll
@@ -162,9 +165,6 @@ C:\dev\CoreIDS\Tests\bin\Debug\netcoreapp3.0\Data.pdb
 C:\dev\CoreIDS\Tests\bin\Debug\netcoreapp3.0\SharpPCap.xml
 C:\dev\CoreIDS\Tests\bin\Debug\netcoreapp3.0\SharpPCap.dll.config
 C:\dev\CoreIDS\Tests\bin\Debug\netcoreapp3.0\PacketDotNet.xml
-C:\dev\CoreIDS\Tests\obj\Debug\netcoreapp3.0\Tests.csprojAssemblyReference.cache
-C:\dev\CoreIDS\Tests\obj\Debug\netcoreapp3.0\Tests.AssemblyInfoInputs.cache
-C:\dev\CoreIDS\Tests\obj\Debug\netcoreapp3.0\Tests.AssemblyInfo.cs
 C:\dev\CoreIDS\Tests\obj\Debug\netcoreapp3.0\Tests.csproj.CopyComplete
 C:\dev\CoreIDS\Tests\obj\Debug\netcoreapp3.0\Tests.dll
 C:\dev\CoreIDS\Tests\obj\Debug\netcoreapp3.0\Tests.pdb

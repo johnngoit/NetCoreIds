@@ -125,3 +125,4 @@ C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSen
 C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSensor.TestClient.csproj.CopyComplete
 C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSensor.TestClient.dll
 C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSensor.TestClient.pdb
+C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSensor.TestClient.csprojAssemblyReference.cache
