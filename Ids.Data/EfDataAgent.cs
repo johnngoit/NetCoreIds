@@ -7,7 +7,7 @@ using Common.Interfaces;
 using Common.Models;
 using Ids.Data;
 
-namespace Common.Data
+namespace Ids.Data
 {
 	public class EfDataAgent : IDataAgent
 	{

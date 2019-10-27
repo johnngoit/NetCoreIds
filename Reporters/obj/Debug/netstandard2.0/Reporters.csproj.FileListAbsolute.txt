@@ -1,13 +1,11 @@
 C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\Reporters.deps.json
 C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\Reporters.dll
 C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\Reporters.pdb
-C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\Common.Data.dll
 C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\Common.dll
 C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\PacketDotNet.dll
 C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\SharpPCap.dll
 C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\Tamir.IPLib.SharpPcap.dll
 C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\Common.pdb
-C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\Common.Data.pdb
 C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\SharpPCap.xml
 C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\SharpPCap.dll.config
 C:\dev\CoreIDS\Reporters\bin\Debug\netstandard2.0\PacketDotNet.xml

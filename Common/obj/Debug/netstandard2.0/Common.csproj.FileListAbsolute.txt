@@ -1,6 +1,3 @@
-C:\dev\CoreIDS\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
-C:\dev\CoreIDS\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
-C:\dev\CoreIDS\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
 C:\dev\CoreIDS\Common\bin\Debug\netstandard2.0\Common.deps.json
 C:\dev\CoreIDS\Common\bin\Debug\netstandard2.0\Common.dll
 C:\dev\CoreIDS\Common\bin\Debug\netstandard2.0\Common.pdb
@@ -10,6 +7,9 @@ C:\dev\CoreIDS\Common\bin\Debug\netstandard2.0\Tamir.IPLib.SharpPcap.dll
 C:\dev\CoreIDS\Common\bin\Debug\netstandard2.0\SharpPCap.xml
 C:\dev\CoreIDS\Common\bin\Debug\netstandard2.0\SharpPCap.dll.config
 C:\dev\CoreIDS\Common\bin\Debug\netstandard2.0\PacketDotNet.xml
+C:\dev\CoreIDS\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+C:\dev\CoreIDS\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\dev\CoreIDS\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
 C:\dev\CoreIDS\Common\obj\Debug\netstandard2.0\Common.csproj.CopyComplete
 C:\dev\CoreIDS\Common\obj\Debug\netstandard2.0\Common.dll
 C:\dev\CoreIDS\Common\obj\Debug\netstandard2.0\Common.pdb

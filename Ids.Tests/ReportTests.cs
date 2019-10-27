@@ -12,7 +12,7 @@ using NSubstitute;
 using PacketDotNet;
 using Common;
 using Common.Interfaces;
-using Common.Data;
+using Ids.Data;
 using Common.Rules;
 using Common.Sensors;
 

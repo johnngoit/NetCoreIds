@@ -1,12 +1,10 @@
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\Analysers.deps.json
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\Analysers.dll
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\Analysers.pdb
-C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\Common.Data.dll
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\Common.dll
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\SharpPcap.dll
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\PacketDotNet.dll
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\Common.pdb
-C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\Common.Data.pdb
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\SharpPcap.xml
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\SharpPcap.dll.config
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\PacketDotNet.xml
