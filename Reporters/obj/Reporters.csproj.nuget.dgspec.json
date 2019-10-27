@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\dev\\CoreIDS\\Ids.Data\\Ids.Data.csproj": {
+    "C:\\dev\\CoreIDS\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\CoreIDS\\Ids.Data\\Ids.Data.csproj",
-        "projectName": "Ids.Data",
-        "projectPath": "C:\\dev\\CoreIDS\\Ids.Data\\Ids.Data.csproj",
+        "projectUniqueName": "C:\\dev\\CoreIDS\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\dev\\CoreIDS\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\JohnN\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\CoreIDS\\Ids.Data\\obj\\",
+        "outputPath": "C:\\dev\\CoreIDS\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -194,8 +194,8 @@
               "C:\\dev\\CoreIDS\\Common\\Common.csproj": {
                 "projectPath": "C:\\dev\\CoreIDS\\Common\\Common.csproj"
               },
-              "C:\\dev\\CoreIDS\\Ids.Data\\Ids.Data.csproj": {
-                "projectPath": "C:\\dev\\CoreIDS\\Ids.Data\\Ids.Data.csproj"
+              "C:\\dev\\CoreIDS\\Data\\Data.csproj": {
+                "projectPath": "C:\\dev\\CoreIDS\\Data\\Data.csproj"
               }
             }
           }

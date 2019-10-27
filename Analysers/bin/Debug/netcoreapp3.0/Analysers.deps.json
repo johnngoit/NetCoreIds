@@ -9,7 +9,7 @@
       "Analysers/1.0.0": {
         "dependencies": {
           "Common": "1.0.0",
-          "Ids.Data": "1.0.0"
+          "Data": "1.0.0"
         },
         "runtime": {
           "Analysers.dll": {}
@@ -1153,7 +1153,7 @@
           "Common.dll": {}
         }
       },
-      "Ids.Data/1.0.0": {
+      "Data/1.0.0": {
         "dependencies": {
           "Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.0.0",
@@ -1162,7 +1162,7 @@
           "System.Data.DataSetExtensions": "4.5.0"
         },
         "runtime": {
-          "Ids.Data.dll": {}
+          "Data.dll": {}
         }
       },
       "SharpPcap.Reference/4.2.0.0": {
@@ -1929,7 +1929,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Ids.Data/1.0.0": {
+    "Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

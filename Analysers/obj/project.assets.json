@@ -1598,7 +1598,7 @@
           "bin/placeholder/Common.dll": {}
         }
       },
-      "Ids.Data/1.0.0": {
+      "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
@@ -1609,10 +1609,10 @@
           "System.Data.DataSetExtensions": "4.5.0"
         },
         "compile": {
-          "bin/placeholder/Ids.Data.dll": {}
+          "bin/placeholder/Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Ids.Data.dll": {}
+          "bin/placeholder/Data.dll": {}
         }
       }
     }
@@ -5713,16 +5713,16 @@
       "path": "../Common/Common.csproj",
       "msbuildProject": "../Common/Common.csproj"
     },
-    "Ids.Data/1.0.0": {
+    "Data/1.0.0": {
       "type": "project",
-      "path": "../Ids.Data/Ids.Data.csproj",
-      "msbuildProject": "../Ids.Data/Ids.Data.csproj"
+      "path": "../Data/Data.csproj",
+      "msbuildProject": "../Data/Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Common >= 1.0.0",
-      "Ids.Data >= 1.0.0"
+      "Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5758,8 +5758,8 @@
             "C:\\dev\\CoreIDS\\Common\\Common.csproj": {
               "projectPath": "C:\\dev\\CoreIDS\\Common\\Common.csproj"
             },
-            "C:\\dev\\CoreIDS\\Ids.Data\\Ids.Data.csproj": {
-              "projectPath": "C:\\dev\\CoreIDS\\Ids.Data\\Ids.Data.csproj"
+            "C:\\dev\\CoreIDS\\Data\\Data.csproj": {
+              "projectPath": "C:\\dev\\CoreIDS\\Data\\Data.csproj"
             }
           }
         }

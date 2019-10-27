@@ -9,7 +9,7 @@
       "Reporters/1.0.0": {
         "dependencies": {
           "Common": "1.0.0",
-          "Ids.Data": "1.0.0",
+          "Data": "1.0.0",
           "PacketDotNet": "0.13.0.0",
           "SharpPCap": "4.2.0.0",
           "Tamir.IPLib.SharpPcap": "1.0.2.0"
@@ -1154,7 +1154,7 @@
           "Common.dll": {}
         }
       },
-      "Ids.Data/1.0.0": {
+      "Data/1.0.0": {
         "dependencies": {
           "Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.0.0",
@@ -1163,7 +1163,7 @@
           "System.Data.DataSetExtensions": "4.5.0"
         },
         "runtime": {
-          "Ids.Data.dll": {}
+          "Data.dll": {}
         }
       },
       "PacketDotNet/0.13.0.0": {
@@ -1938,7 +1938,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Ids.Data/1.0.0": {
+    "Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -3,6 +3,8 @@ This project for learning c# from youtube: build an ids with c# by ShaneInSweden
 I convert his project into dotnet core and run in vscode. you can restore db from file Database\IDSDB.mdf
 and update your db connection string to run this solution in your local.  Happy Coding
 
+I update all projects to netcoreapp3.0 and using the combination TDD and EF code first approach.
+
 dotnet add package System.Xml.Linq
 dotnet add package ..\References\PacketDotNet.dll
 dotnet add package ..\Common.Data\Common.Data.csproj
@@ -33,7 +35,7 @@ dotnet run --project .\WebMonitorSensor.TestClient\WebMonitorSensor.TestClient.c
 
 debug test setup
 // when target netstandard2.0 cause a lot error and warning, but change to netcoreapp2.0 then thing start to work
-the file: Ids.Tests\Ids.Test.csproj
+the file: Tests\Ids.Test.csproj
 
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
@@ -73,8 +75,8 @@ dotnet test -v n
 
 
 --------------------------------------------------------ef code first
-dotnet new classlib --framework netcoreapp3.0 -o Ids.Data
-cd Ids.Data
+dotnet new classlib --framework netcoreapp3.0 -o Data
+cd Data
 dotnet add reference ..\Common\Common.csproj
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add packaga Microsoft.EntityFrameworkCore.Design
