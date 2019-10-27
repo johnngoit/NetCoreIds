@@ -5,10 +5,10 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Xml.Serialization;
-using Ids.Common.Idmef;
+using Common.Idmef;
 using PacketDotNet;
 
-namespace Ids.Common.Utilities
+namespace Common.Utilities
 {
     /// <summary>
     /// Created IDMEF messages from various formats

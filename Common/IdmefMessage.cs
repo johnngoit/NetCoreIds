@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ids.Common.Idmef
+namespace Common.Idmef
 {
     public class IdmefMessage
     {

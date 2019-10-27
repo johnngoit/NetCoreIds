@@ -3,9 +3,9 @@ using System.CodeDom;
 using System.Text.RegularExpressions;
 using PacketDotNet;
 using SharpPcap;
-using Ids.Common;
+using Common;
 
-namespace Ids.Common
+namespace Common
 {
 	public class SharpPcapInformationSource : SimpleInformationSource, IActiveInformationSource
 	{

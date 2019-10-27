@@ -4,10 +4,10 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 using System.Threading.Tasks;
-using Ids.Common;
-using Ids.Common.Interfaces;
+using Common;
+using Common.Interfaces;
 
-namespace Ids.Common.Sensors
+namespace Common.Sensors
 {
 	public class Sensor : ISensor
 	{

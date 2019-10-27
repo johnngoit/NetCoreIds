@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
-using Ids.Common;
-using Ids.Common.Interfaces;
+using Common;
+using Common.Interfaces;
 
-namespace Ids.Common.Rules
+namespace Common.Rules
 {
 	public class HostScanRule : IIpRouteRule
 	{

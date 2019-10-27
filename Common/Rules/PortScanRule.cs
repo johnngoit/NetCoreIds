@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ids.Common;
-using Ids.Common.Interfaces;
+using Common;
+using Common.Interfaces;
 
-namespace Ids.Common.Rules
+namespace Common.Rules
 {
 	public class PortScanRule : IRule
 	{

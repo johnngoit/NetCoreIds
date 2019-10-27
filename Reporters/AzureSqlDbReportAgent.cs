@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using Ids.Common.Data;
-using Ids.Common.Idmef;
-using Ids.Common.Interfaces;
-using Ids.Common.Utilities;
+using Common.Data;
+using Common.Idmef;
+using Common.Interfaces;
+using Common.Utilities;
 using PacketDotNet;
 using Tamir.IPLib.Packets;
 using Packet = PacketDotNet.Packet;
 
-namespace Ids.Common.Reporters
+namespace Common.Reporters
 {
     /// <summary>
     /// Log sensor events to a database in the Azure Cloud

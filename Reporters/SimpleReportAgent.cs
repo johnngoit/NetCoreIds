@@ -1,11 +1,11 @@
 ﻿
 using System;
-using Ids.Common.Idmef;
-using Ids.Common.Interfaces;
+using Common.Idmef;
+using Common.Interfaces;
 using PacketDotNet;
 using SharpPcap;
 
-namespace Ids.Common.Reporters
+namespace Common.Reporters
 {
     public class SimpleReportAgent: ISensorReport, IAlertReport
     {

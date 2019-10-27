@@ -1,6 +1,6 @@
 using System;
 
-namespace Ids.Common
+namespace Common
 {
 	public class NetworkEventArgs : EventArgs
 	{

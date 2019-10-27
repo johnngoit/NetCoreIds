@@ -5,11 +5,11 @@ using System.Net.Mail;
 using System.Text;
 using PacketDotNet;
 using SharpPcap;
-using Ids.Common.Interfaces;
+using Common.Interfaces;
 using System.Threading;
 using SharpPcap.WinPcap;
 
-namespace Ids.Common.Sensors
+namespace Common.Sensors
 {
     public class BaseSensor : ISensor
     {

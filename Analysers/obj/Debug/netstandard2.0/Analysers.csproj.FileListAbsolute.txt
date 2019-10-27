@@ -1,6 +1,3 @@
-C:\dev\CoreIDS\Analysers\obj\Debug\netstandard2.0\Analysers.AssemblyInfoInputs.cache
-C:\dev\CoreIDS\Analysers\obj\Debug\netstandard2.0\Analysers.AssemblyInfo.cs
-C:\dev\CoreIDS\Analysers\obj\Debug\netstandard2.0\Analysers.csprojAssemblyReference.cache
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\Analysers.deps.json
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\Analysers.dll
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\Analysers.pdb
@@ -13,6 +10,9 @@ C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\Common.Data.pdb
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\SharpPcap.xml
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\SharpPcap.dll.config
 C:\dev\CoreIDS\Analysers\bin\Debug\netstandard2.0\PacketDotNet.xml
+C:\dev\CoreIDS\Analysers\obj\Debug\netstandard2.0\Analysers.csprojAssemblyReference.cache
+C:\dev\CoreIDS\Analysers\obj\Debug\netstandard2.0\Analysers.AssemblyInfoInputs.cache
+C:\dev\CoreIDS\Analysers\obj\Debug\netstandard2.0\Analysers.AssemblyInfo.cs
 C:\dev\CoreIDS\Analysers\obj\Debug\netstandard2.0\Analysers.csproj.CopyComplete
 C:\dev\CoreIDS\Analysers\obj\Debug\netstandard2.0\Analysers.dll
 C:\dev\CoreIDS\Analysers\obj\Debug\netstandard2.0\Analysers.pdb

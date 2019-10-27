@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Ids.Common;
+using Common;
 using SharpPcap;
 using SharpPcap.WinPcap;
 
-namespace Ids.Common.Interfaces
+namespace Common.Interfaces
 {
     public interface ISensorReport
     {

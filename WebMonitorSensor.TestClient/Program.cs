@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Net;
 using System.Collections.Generic;
-using Ids.Common;
-using Ids.Common.Reporters;
-using Ids.Common.Sensors;
-using Ids.Common.Interfaces;
-using Ids.Common.Utilities;
+using Common;
+using Common.Reporters;
+using Common.Sensors;
+using Common.Interfaces;
+using Common.Utilities;
 
 namespace Ids.Client.WebMonitorSensor.TestClient
 {

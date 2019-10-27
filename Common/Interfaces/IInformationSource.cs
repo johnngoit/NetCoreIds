@@ -1,4 +1,4 @@
-﻿namespace Ids.Common
+﻿namespace Common
 {
 	public interface IInformationSource
 	{

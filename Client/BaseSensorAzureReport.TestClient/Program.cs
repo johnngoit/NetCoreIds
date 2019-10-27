@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ids.Common;
-using Ids.Common.Reporters;
-using Ids.Common.Sensors;
+using Common;
+using Common.Reporters;
+using Common.Sensors;
 
 namespace BaseSensorAzureReport.TestClient
 {
@@ -13,7 +13,7 @@ namespace BaseSensorAzureReport.TestClient
     {
         static void Main(string[] args)
         {
-            List<Ids.Common.Interfaces.ISensorReport> reporters = new List<Ids.Common.Interfaces.ISensorReport>();
+            List<Common.Interfaces.ISensorReport> reporters = new List<Common.Interfaces.ISensorReport>();
             string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=IDSDB;Persist Security Info=True;User ID=cyberproduct;Password=x2000; Connect Timeout=600;Max Pool Size = 200;Pooling = True";
             //conTxtBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=EFCoreFistApp;Trusted_Connection=True;");
             AzureSqlDbReportAgent cloudDbReportAgent = new AzureSqlDbReportAgent(connectionString,"7C8FA0D3-1F00-42F1-B849-184348D834F6");

@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using Ids.Common;
+using Common;
 
-namespace Ids.Common
+namespace Common
 {
 	public class SimpleInformationSource : IInformationSource
 	{

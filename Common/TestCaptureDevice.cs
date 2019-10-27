@@ -3,7 +3,7 @@ using System.Net.NetworkInformation;
 using PacketDotNet;
 using SharpPcap;
 
-namespace Ids.Common
+namespace Common
 {
 	public class TestCaptureDevice : ICaptureDevice
 	{

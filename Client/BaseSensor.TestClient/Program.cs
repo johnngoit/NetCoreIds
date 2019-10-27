@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Ids.Common;
-using Ids.Common.Sensors;
+using Common;
+using Common.Sensors;
 
 namespace Ids.Client.BaseSensorTestClient
 {
@@ -11,8 +11,8 @@ namespace Ids.Client.BaseSensorTestClient
     {
         static void Main(string[] args)
         {
-            List<Ids.Common.Interfaces.ISensorReport> reporters = new List<Ids.Common.Interfaces.ISensorReport>();
-            reporters.Add(new Ids.Common.Reporters.SimpleReportAgent());
+            List<Common.Interfaces.ISensorReport> reporters = new List<Common.Interfaces.ISensorReport>();
+            reporters.Add(new Common.Reporters.SimpleReportAgent());
             CaptureDeviceDescription cdd = new CaptureDeviceDescription()
             {
                 DeviceNumber = 0,

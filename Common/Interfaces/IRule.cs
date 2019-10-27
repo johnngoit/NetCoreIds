@@ -1,6 +1,6 @@
 using System;
 
-namespace Ids.Common.Interfaces
+namespace Common.Interfaces
 {
     public interface IRule
 	{

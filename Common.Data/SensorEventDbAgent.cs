@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Win32;
-using Ids.Common.Interfaces;
+using Common.Interfaces;
 
-namespace Ids.Common.Data
+namespace Common.Data
 {
     /// <summary>
     /// Handles data access with the SensorHeartbeatLog table

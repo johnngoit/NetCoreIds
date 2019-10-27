@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ids.Common.Idmef;
-using Ids.Common.Interfaces;
+using Common.Idmef;
+using Common.Interfaces;
 
-namespace Ids.Common.Analysers
+namespace Common.Analysers
 {
     public class SimpleAdminLoginAnalyser : BaseAnalyser
     {

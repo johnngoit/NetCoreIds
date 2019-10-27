@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Ids.Common.Interfaces;
+using Common.Interfaces;
 using SharpPcap;
 
-namespace Ids.Common.Sensors
+namespace Common.Sensors
 {
     public class WebServerDosSensor : BaseSensor
     {
@@ -22,7 +22,8 @@ namespace Ids.Common.Sensors
         /// 
 
         private WebServerDosSensor(CaptureDeviceDescription deviceToCaptureInfo, string filter, DeviceMode deviceMode, List<ISensorReport> reportMethods, int heartBeatDelay)
-            : base(deviceToCaptureInfo, filter, deviceMode, reportMethods, heartBeatDelay, Enumerations.SensorMode.PacketCapture)
+            : base(deviceToCaptureInfo, filter, deviceMode, reportMethods, heartBeatDelay,
+                  Enumerations.SensorMode.PacketCapture)
         {
         }
         public static WebServerDosSensor FactoryMethod(CaptureDeviceDescription deviceToCaptureInfo,string webServerAdress, int port, bool sensorDeployedOnWebServer, List<ISensorReport> reportMethods, int heartBeatDelay)

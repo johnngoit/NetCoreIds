@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ids.Common.Analysers;
-using Ids.Common.Data;
-using Ids.Common.Interfaces;
-using Ids.Common.Reporters;
+using Common.Analysers;
+using Common.Data;
+using Common.Interfaces;
+using Common.Reporters;
 
 namespace Analyser.PortScanAnalysisClient
 {
@@ -20,7 +20,7 @@ namespace Analyser.PortScanAnalysisClient
             List<IAlertReport> reporters = new List<IAlertReport>();
             //AzureSqlDbReportAgent ara = new AzureSqlDbReportAgent(connectionString);
             //reporters.Add(ara);
-            reporters.Add(new Ids.Common.Reporters.SimpleReportAgent());
+            reporters.Add(new Common.Reporters.SimpleReportAgent());
 
 
             //data agent

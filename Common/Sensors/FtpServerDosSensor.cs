@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Ids.Common.Interfaces;
+using Common.Interfaces;
 using SharpPcap;
 
-namespace Ids.Common.Sensors
+namespace Common.Sensors
 {
     public class FtpServerDosSensor : BaseSensor
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ids.Common
+namespace Common
 {
     public class CaptureDeviceDescription
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ids.Common.Idmef;
+using Common.Idmef;
 
-namespace Ids.Common.Interfaces
+namespace Common.Interfaces
 {
     public interface IAlertReport
     {

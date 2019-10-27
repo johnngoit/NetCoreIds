@@ -10,11 +10,11 @@ using System.Transactions;
 using NUnit.Framework;
 using NSubstitute;
 using PacketDotNet;
-using Ids.Common;
-using Ids.Common.Interfaces;
-using Ids.Common.Data;
-using Ids.Common.Rules;
-using Ids.Common.Sensors;
+using Common;
+using Common.Interfaces;
+using Common.Data;
+using Common.Rules;
+using Common.Sensors;
 
 namespace Ids.Tests
 {

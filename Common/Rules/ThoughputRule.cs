@@ -1,8 +1,8 @@
 using System;
-using Ids.Common;
-using Ids.Common.Interfaces;
+using Common;
+using Common.Interfaces;
 
-namespace Ids.Common.Rules
+namespace Common.Rules
 {
 	public class ThoughputRule : IRule
 	{

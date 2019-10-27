@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Ids.Common;
-using Ids.Common.Reporters;
-using Ids.Common.Sensors;
+using Common;
+using Common.Reporters;
+using Common.Sensors;
 
 namespace Ids.Client.WebDosSensor.TestClient
 {
@@ -12,8 +12,8 @@ namespace Ids.Client.WebDosSensor.TestClient
     {
         static void Main(string[] args)
         {
-            List<Ids.Common.Interfaces.ISensorReport> reporters = new List<Ids.Common.Interfaces.ISensorReport>();
-            reporters.Add(new Ids.Common.Reporters.SimpleReportAgent());
+            List<Common.Interfaces.ISensorReport> reporters = new List<Common.Interfaces.ISensorReport>();
+            reporters.Add(new Common.Reporters.SimpleReportAgent());
             string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=IDSDB;Persist Security Info=True;User ID=cyberproduct;Password=x2000; Connect Timeout=600;Max Pool Size = 200;Pooling = True";
 
             AzureSqlDbReportAgent cloudDbReportAgent = new AzureSqlDbReportAgent(connectionString,String.Empty);

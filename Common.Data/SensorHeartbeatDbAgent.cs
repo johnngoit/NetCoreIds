@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ids.Common.Data
+namespace Common.Data
 {
     /// <summary>
     /// Handles data access with the SensorHeartbeatLog table

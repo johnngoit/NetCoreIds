@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Net;
 
-namespace Ids.Common.Utilities
+namespace Common.Utilities
 {
 	/// <summary>
 	/// Summary description for FilterManager.

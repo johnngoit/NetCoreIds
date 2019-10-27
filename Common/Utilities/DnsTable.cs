@@ -2,7 +2,7 @@ using System;
 using System.Net;
 using System.Collections;
 
-namespace Ids.Common.Utilities
+namespace Common.Utilities
 {
 	/// <summary>
 	/// Summary description for DnsTable.

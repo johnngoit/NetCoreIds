@@ -2,10 +2,10 @@ using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using Ids.Common;
-using Ids.Common.Interfaces;
+using Common;
+using Common.Interfaces;
 
-namespace Ids.Common.Data
+namespace Common.Data
 {
 	public class EfDataAgent : IDataAgent
 	{

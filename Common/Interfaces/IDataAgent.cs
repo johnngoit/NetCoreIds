@@ -1,6 +1,6 @@
 ﻿using System.Net.NetworkInformation;
 
-namespace Ids.Common
+namespace Common
 {
 	public interface IDataAgent
 	{

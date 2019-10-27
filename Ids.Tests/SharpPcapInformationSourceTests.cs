@@ -2,7 +2,7 @@
 //using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 using SharpPcap;
-using Ids.Common;
+using Common;
 
 namespace Ids.Tests
 {
