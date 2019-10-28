@@ -5732,11 +5732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\CoreIDS\\Analysers\\Analysers.csproj",
+      "projectUniqueName": "c:\\dev\\CoreIDS\\Analysers\\Analysers.csproj",
       "projectName": "Analysers",
-      "projectPath": "C:\\dev\\CoreIDS\\Analysers\\Analysers.csproj",
+      "projectPath": "c:\\dev\\CoreIDS\\Analysers\\Analysers.csproj",
       "packagesPath": "C:\\Users\\JohnN\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\CoreIDS\\Analysers\\obj\\",
+      "outputPath": "c:\\dev\\CoreIDS\\Analysers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5755,11 +5755,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\dev\\CoreIDS\\Common\\Common.csproj": {
-              "projectPath": "C:\\dev\\CoreIDS\\Common\\Common.csproj"
+            "c:\\dev\\CoreIDS\\Common\\Common.csproj": {
+              "projectPath": "c:\\dev\\CoreIDS\\Common\\Common.csproj"
             },
-            "C:\\dev\\CoreIDS\\Data\\Data.csproj": {
-              "projectPath": "C:\\dev\\CoreIDS\\Data\\Data.csproj"
+            "c:\\dev\\CoreIDS\\Data\\Data.csproj": {
+              "projectPath": "c:\\dev\\CoreIDS\\Data\\Data.csproj"
             }
           }
         }

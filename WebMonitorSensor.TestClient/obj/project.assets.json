@@ -5753,11 +5753,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\CoreIDS\\WebMonitorSensor.TestClient\\WebMonitorSensor.TestClient.csproj",
+      "projectUniqueName": "c:\\dev\\CoreIDS\\WebMonitorSensor.TestClient\\WebMonitorSensor.TestClient.csproj",
       "projectName": "WebMonitorSensor.TestClient",
-      "projectPath": "C:\\dev\\CoreIDS\\WebMonitorSensor.TestClient\\WebMonitorSensor.TestClient.csproj",
+      "projectPath": "c:\\dev\\CoreIDS\\WebMonitorSensor.TestClient\\WebMonitorSensor.TestClient.csproj",
       "packagesPath": "C:\\Users\\JohnN\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\CoreIDS\\WebMonitorSensor.TestClient\\obj\\",
+      "outputPath": "c:\\dev\\CoreIDS\\WebMonitorSensor.TestClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5776,11 +5776,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\dev\\CoreIDS\\Common\\Common.csproj": {
-              "projectPath": "C:\\dev\\CoreIDS\\Common\\Common.csproj"
+            "c:\\dev\\CoreIDS\\Common\\Common.csproj": {
+              "projectPath": "c:\\dev\\CoreIDS\\Common\\Common.csproj"
             },
-            "C:\\dev\\CoreIDS\\Reporters\\Reporters.csproj": {
-              "projectPath": "C:\\dev\\CoreIDS\\Reporters\\Reporters.csproj"
+            "c:\\dev\\CoreIDS\\Reporters\\Reporters.csproj": {
+              "projectPath": "c:\\dev\\CoreIDS\\Reporters\\Reporters.csproj"
             }
           }
         }

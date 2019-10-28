@@ -120,9 +120,9 @@ C:\dev\CoreIDS\WebMonitorSensor.TestClient\bin\Debug\netcoreapp3.0\Data.pdb
 C:\dev\CoreIDS\WebMonitorSensor.TestClient\bin\Debug\netcoreapp3.0\SharpPcap.xml
 C:\dev\CoreIDS\WebMonitorSensor.TestClient\bin\Debug\netcoreapp3.0\SharpPcap.dll.config
 C:\dev\CoreIDS\WebMonitorSensor.TestClient\bin\Debug\netcoreapp3.0\PacketDotNet.xml
+C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSensor.TestClient.csprojAssemblyReference.cache
 C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSensor.TestClient.AssemblyInfoInputs.cache
 C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSensor.TestClient.AssemblyInfo.cs
 C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSensor.TestClient.csproj.CopyComplete
 C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSensor.TestClient.dll
 C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSensor.TestClient.pdb
-C:\dev\CoreIDS\WebMonitorSensor.TestClient\obj\Debug\netcoreapp3.0\WebMonitorSensor.TestClient.csprojAssemblyReference.cache

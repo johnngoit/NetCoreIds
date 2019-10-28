@@ -38,7 +38,7 @@ namespace Data
                     Payload = payload//,Comment = ""
 				};
 			//using (AlertsEntities entities = new AlertsEntities())
-            using (var entities = new DataContext())
+            using (var entities = (new DBContextFactory()).IdsDataContext)
 			{
 				entities.SensorEventLogs.Add(log);
 				entities.SaveChanges();

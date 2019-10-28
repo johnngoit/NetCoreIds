@@ -5732,11 +5732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\CoreIDS\\Reporters\\Reporters.csproj",
+      "projectUniqueName": "c:\\dev\\CoreIDS\\Reporters\\Reporters.csproj",
       "projectName": "Reporters",
-      "projectPath": "C:\\dev\\CoreIDS\\Reporters\\Reporters.csproj",
+      "projectPath": "c:\\dev\\CoreIDS\\Reporters\\Reporters.csproj",
       "packagesPath": "C:\\Users\\JohnN\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\CoreIDS\\Reporters\\obj\\",
+      "outputPath": "c:\\dev\\CoreIDS\\Reporters\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5755,11 +5755,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\dev\\CoreIDS\\Common\\Common.csproj": {
-              "projectPath": "C:\\dev\\CoreIDS\\Common\\Common.csproj"
+            "c:\\dev\\CoreIDS\\Common\\Common.csproj": {
+              "projectPath": "c:\\dev\\CoreIDS\\Common\\Common.csproj"
             },
-            "C:\\dev\\CoreIDS\\Data\\Data.csproj": {
-              "projectPath": "C:\\dev\\CoreIDS\\Data\\Data.csproj"
+            "c:\\dev\\CoreIDS\\Data\\Data.csproj": {
+              "projectPath": "c:\\dev\\CoreIDS\\Data\\Data.csproj"
             }
           }
         }

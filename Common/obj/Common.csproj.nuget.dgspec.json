@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\CoreIDS\\Common\\Common.csproj": {}
+    "c:\\dev\\CoreIDS\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\dev\\CoreIDS\\Common\\Common.csproj": {
+    "c:\\dev\\CoreIDS\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\CoreIDS\\Common\\Common.csproj",
+        "projectUniqueName": "c:\\dev\\CoreIDS\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\dev\\CoreIDS\\Common\\Common.csproj",
+        "projectPath": "c:\\dev\\CoreIDS\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\JohnN\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\CoreIDS\\Common\\obj\\",
+        "outputPath": "c:\\dev\\CoreIDS\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -48,10 +48,6 @@
             "Microsoft.CSharp": {
               "target": "Package",
               "version": "[4.6.0, )"
-            },
-            "Microsoft.EntityFrameWorkCore.Tools.DotNet": {
-              "target": "Package",
-              "version": "(, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

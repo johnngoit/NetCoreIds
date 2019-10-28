@@ -9039,11 +9039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\CoreIDS\\Tests\\Tests.csproj",
+      "projectUniqueName": "c:\\dev\\CoreIDS\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\dev\\CoreIDS\\Tests\\Tests.csproj",
+      "projectPath": "c:\\dev\\CoreIDS\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\JohnN\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\CoreIDS\\Tests\\obj\\",
+      "outputPath": "c:\\dev\\CoreIDS\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9062,11 +9062,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\dev\\CoreIDS\\Common\\Common.csproj": {
-              "projectPath": "C:\\dev\\CoreIDS\\Common\\Common.csproj"
+            "c:\\dev\\CoreIDS\\Common\\Common.csproj": {
+              "projectPath": "c:\\dev\\CoreIDS\\Common\\Common.csproj"
             },
-            "C:\\dev\\CoreIDS\\Reporters\\Reporters.csproj": {
-              "projectPath": "C:\\dev\\CoreIDS\\Reporters\\Reporters.csproj"
+            "c:\\dev\\CoreIDS\\Reporters\\Reporters.csproj": {
+              "projectPath": "c:\\dev\\CoreIDS\\Reporters\\Reporters.csproj"
             }
           }
         }

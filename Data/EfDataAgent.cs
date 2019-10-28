@@ -21,21 +21,23 @@ namespace Data
 
 		public void SaveEFAlert(NetworkEventArgs args)
 		{
-			//using (AlertsEntities entities = new AlertsEntities())
-            using (var entities = new DataContext())
-			{
-				entities.Alerts.Add(new Alert()
-				{
-					Created = DateTime.Now,
-					DatasourceId = args.DatasourceId,
-					DestinationPort = args.DestinationPort,
-					SourcePort = args.SourcePort,
-					DestinationIp = args.DestinationIpAddress,
-					SourceIp = args.SourceIpAddress,
-					Payload = args.PayloadText
-				});
-				entities.SaveChanges();
-			}
+            //using (AlertsEntities entities = new AlertsEntities())
+            //using (var entities = new DataContext())
+            using (var entities = (new DBContextFactory()).IdsDataContext)
+            {
+                entities.Alerts.Add(new Alert()
+                {
+                    Created = DateTime.Now,
+                    DatasourceId = args.DatasourceId,
+                    DestinationPort = args.DestinationPort,
+                    SourcePort = args.SourcePort,
+                    DestinationIp = args.DestinationIpAddress,
+                    SourceIp = args.SourceIpAddress,
+                    Payload = args.PayloadText,
+                    RuleId = 2
+                });
+                entities.SaveChanges();
+            }
         }
 		// public void SaveAlert(NetworkEventArgs args)
 		// {
@@ -83,11 +85,11 @@ namespace Data
 
 		public int CountAlerts()
 		{
-			// using (AlertsEntities entities = new AlertsEntities())
-			// {
-			// 	return entities.Alerts.Count();
-			// }
-            return 0;
-		}
+            using (var entities = (new DBContextFactory()).IdsDataContext)
+            {
+                return entities.Alerts.Count();
+            }
+            //return 0;
+        }
 	}
 }

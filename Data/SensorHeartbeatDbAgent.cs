@@ -19,7 +19,7 @@ namespace Data
         public static int InsertHeartbeatEvent(string sensorId)
         {
             var alert = new SensorHeartBeatLog() { SensorId = sensorId, Created = DateTime.Now};
-            using (var db = new DataContext())
+            using (var db = (new DBContextFactory()).IdsDataContext)
             {
                 db.SensorHeartBeatLogs.Add(alert);
                 db.SaveChanges();
